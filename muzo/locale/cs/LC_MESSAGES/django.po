@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Muzo v1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-10-23 15:58+0200\n"
+"PO-Revision-Date: 2007-10-23 16:07+0100\n"
+"Last-Translator: Petr Chalupný <petr@mapfactor.com>\n"
+"Language-Team: Čeština <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Czech\n"
+
+#: ws.py:7
+msgid "REQUESTED"
+msgstr "Neukončena"
+
+#: ws.py:8
+msgid "PENDING"
+msgstr "Neukončena"
+
+#: ws.py:9
+msgid "CREATED"
+msgstr "Neukončena"
+
+#: ws.py:10
+msgid "APPROVED"
+msgstr "Autorizována"
+
+#: ws.py:11
+msgid "APPROVE_REVERSED"
+msgstr "Reverzována"
+
+#: ws.py:12
+msgid "UNAPPROVED"
+msgstr "Neautorizována"
+
+#: ws.py:13
+msgid "DEPOSITED_BATCH_OPENED"
+msgstr "Uhrazena"
+
+#: ws.py:14
+msgid "DEPOSITED_BATCH_CLOSED"
+msgstr "Zpracována"
+
+#: ws.py:15
+msgid "ORDER_CLOSED"
+msgstr "Uzavřena"
+
+#: ws.py:16
+msgid "DELETED"
+msgstr "Vymazána"
+
+#: ws.py:17
+msgid "CREDITED_BATCH_OPENED"
+msgstr "Kreditována"
+
+#: ws.py:18
+msgid "CREDITED_BATCH_CLOSED"
+msgstr "Kreditována"
+
+#: ws.py:19
+msgid "DECLINED"
+msgstr "Zamítnuta"
+
+#: ws.py:23
+msgid "OK"
+msgstr "OK"
+
+#: ws.py:24
+msgid "Field too long"
+msgstr "Pole příliš krátké"
+
+#: ws.py:25
+msgid "Field too short"
+msgstr "Pole příliš krátké"
+
+#: ws.py:26
+msgid "Incorrect content of field"
+msgstr "Chybný obsah pole"
+
+#: ws.py:27
+msgid "Field is null"
+msgstr "Pole je prázdné"
+
+#: ws.py:28
+msgid "Missing required field"
+msgstr "Chybí povinné pole"
+
+#: ws.py:29
+msgid "Unknown merchant"
+msgstr "Neznámý obchodník"
+
+#: ws.py:30
+msgid "Duplicate order number"
+msgstr "Duplikátní číslo objednávky"
+
+#: ws.py:31
+msgid "Object not found"
+msgstr "Objekt nenalezen"
+
+#: ws.py:32
+msgid "Amount to deposit exceeds approved amount"
+msgstr "Částka k úhradě překročila autorizovanou částku"
+
+#: ws.py:33
+msgid "Total sum of credited amounts exceeded deposited amount"
+msgstr "Součet kreditovaných částek překročil uhrazenou částku"
+
+#: ws.py:34
+msgid "Object not in valid state for operation"
+msgstr "Objekt není ve stavu odpovídajícím této operaci"
+
+#: ws.py:35
+msgid "Technical problem in connection to authorization center"
+msgstr "Technické problém při spojení s autorizačním centrem"
+
+#: ws.py:36
+msgid "Incorrect order type"
+msgstr "Chybný typ objednávky"
+
+#: ws.py:37
+msgid "Declined in 3D"
+msgstr "Zamítnuto v 3D"
+
+#: ws.py:38
+msgid "Declined in AC"
+msgstr "Zamítnuto v autorizačním centru"
+
+#: ws.py:39
+msgid "Wrong digest"
+msgstr "Chybný podpis"
+
+#: ws.py:40
+msgid "Technical problem"
+msgstr "Technický problém"
+
+#: ws.py:44
+msgid "Empty"
+msgstr "Bez významu"
+
+#: ws.py:45
+msgid "ORDERNUMBER"
+msgstr ""
+
+#: ws.py:46
+msgid "MERCHANTNUMBER"
+msgstr ""
+
+#: ws.py:47
+msgid "AMOUNT"
+msgstr ""
+
+#: ws.py:48
+msgid "CURRENCY"
+msgstr ""
+
+#: ws.py:49
+msgid "DEPOSITFLAG"
+msgstr ""
+
+#: ws.py:50
+msgid "MERORDERNUM"
+msgstr ""
+
+#: ws.py:51
+msgid "CREDITNUMBER"
+msgstr ""
+
+#: ws.py:52
+msgid "OPERATION"
+msgstr ""
+
+#: ws.py:53
+msgid "BATCH"
+msgstr ""
+
+#: ws.py:54
+msgid "ORDER"
+msgstr ""
+
+#: ws.py:55
+msgid "URL"
+msgstr ""
+
+#: ws.py:56
+msgid "MD"
+msgstr ""
+
+#: ws.py:57
+msgid "DESC"
+msgstr ""
+
+#: ws.py:58
+msgid "DIGEST"
+msgstr ""
+
+#: ws.py:59
+msgid "Declined in AC, Card blocked"
+msgstr "Zamitnuto v autorizačním centru, karta blokovana"
+
+#: ws.py:60
+msgid "Declined in AC, Declined"
+msgstr "Zamítnuto v autorizačním centru, autorizace zamítnuta"
+
+#: ws.py:61
+msgid "Declined in AC, Card problem"
+msgstr "Zamítnuto v autorizačním centru, problém karty"
+
+#: ws.py:62
+msgid "Declined in AC, Technical problem in authorization process"
+msgstr "Zamítnuto v autorizačním centru, technický problém"
+
+#: ws.py:63
+msgid "Declined in AC, Account problem"
+msgstr "Zamítnuto v autorizačním centru, problém účtu"
+
+#: ws.py:64
+msgid ""
+"Declined in 3D. Cardholder not authenticated in 3D. \n"
+"\t\t   Contact your card issuer. Note: Cardholder authentication failed (wrong\n"
+"\t\t   password, transaction canceled, authentication window was closed)\n"
+"\t\t   Transaction Declined."
+msgstr "Neovereno v 3D. Vydavatel karty není zapojen do 3D nebo karta nebyla aktivována. Kontaktujte vydavatele karty."
+
+#: ws.py:68
+msgid ""
+"Authenticated. Note: Cardholder was successfully\n"
+"\t\t   authenticated - transaction continue with\n"
+"\t\t   authorization."
+msgstr "Držitel karty ověřen"
+
+#: ws.py:71
+msgid ""
+"Not Authenticated in 3D. Issuer or Cardholder not participating in 3D.\n"
+"\t\t   Contact your card issuer."
+msgstr "Neověřeno v 3D. Vydavatel karty nebo karta není zapojena do 3D. Kontaktujte vydavatele karty."
+
+#: ws.py:73
+msgid ""
+"Not Authenticated in 3D. Issuer not participating or Cardholder not\n"
+"\t\t   enrolled. Contact your card issuer."
+msgstr "Neověřeno v 3D. Vydavatel karty není zapojen do 3D nebo karta nebyla aktivována. Kontaktujte vydavatele karty."
+
+#: ws.py:75
+msgid ""
+"Declined in 3D. Technical problem during Cardholder authentication.\n"
+"\t\t   Contact your card issuer"
+msgstr "Zamítnuto v 3D. Technický problém při ověření držitele karty. Kontaktujte vydavatele karty."
+
+#: ws.py:77
+msgid "Declined in 3D. Technical problem during Cardholder authentication."
+msgstr "Zamítnuto v 3D. Technický problém při ověření držitele karty."
+
+#: ws.py:78
+msgid "Declined in 3D. Acquirer technical problem. Contact the merchant."
+msgstr "Zamítnuto v 3D. Technický problém v systému zúčtující banky. Kontaktujte obchodníka."
+
+#: ws.py:79
+msgid "Declined in 3D. Unsupported card product. Contact your card issuer"
+msgstr "Zamítnuto v 3D. Použit nepodporovaný karetní produkt. Kontaktujte vydavatele karty."
+
