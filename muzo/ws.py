@@ -3,6 +3,8 @@ from django.utils.translation import gettext_lazy as _
 from django.conf import settings
 from os.path import dirname
 from signature import CSignature
+from models import MERCHANT_NUM
+
 
 MUZO_ORDER_STATES = {
     0: _('UNKNOWN'),
@@ -101,7 +103,7 @@ class MuzoWS:
 	wsdl_file = dirname(__file__)+'/pgw.xml'
 
 	# 
-	merchant_num = 57771901
+	merchant_num = MERCHANT_NUM
 
 	def __init__(self, order_num):
 		self._server = WSDL.Proxy(self.wsdl_file)
