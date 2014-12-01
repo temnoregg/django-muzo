@@ -23,7 +23,7 @@ PASSWD = settings.MUZO_PASS
 PUB_KEY = settings.MUZO_PUB_KEY
 
 # required, merchant number
-MERCHANT_NUM = 0
+MERCHANT_NUM = settings.MUZO_MERCHANT_NUM
 
 # required, operation option, default 'CREATE_ORDER'    
 OPERATION = 'CREATE_ORDER'
