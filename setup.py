@@ -17,6 +17,6 @@ setup(
     author_email='temnoregg@gmail.com',
     url='https://github.com/temnoregg/django-muzo',
     packages=find_packages(),
-    install_requires=['Django>=1.2'],
+    # install_requires=['Django>=1.2'],
     zip_safe=False
 )
