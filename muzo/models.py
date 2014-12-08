@@ -108,7 +108,8 @@ class Request(models.Model):
         if not self.id:
             # We need to reset current language
             # if getattr(settings, 'BASE_URL', False) and getattr(settings, 'MUZO_RESPONSE_URL', False):
-            self.URL = settings.BASE_URL.strip('/') + reverse('order_verify')
+            if not self.URL:
+                self.URL = RETURN_URL
             super(Request, self).save()
             self.ORDERNUMBER = self.id
         
