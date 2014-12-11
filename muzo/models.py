@@ -83,7 +83,7 @@ class Response(models.Model):
                 )
     
     def send_signals(self):
-        if self.is_flagged:
+        if not self.is_flagged:
             muzo_successful.send(sender=self)
         else:
             muzo_failed.send(sender=self)
@@ -94,7 +94,7 @@ class Request(models.Model):
     OPERATION = models.CharField(default=OPERATION, max_length=20, blank=True, null=True)
     ORDERNUMBER = models.CharField(max_length=15, blank=True, null=True)
     DEPOSITFLAG = models.IntegerField(default=DEPOSIT_FLAG, max_length=1, blank=True, null=True)
-    MERCHANTNUMBER = models.IntegerField(default=MERCHANT_NUM, max_length=11, blank=True, null=True)
+    MERCHANTNUMBER = models.BigIntegerField(default=MERCHANT_NUM, max_length=11, blank=True, null=True)
     URL = models.TextField(blank=True, null=True)
     DIGEST = models.TextField(blank=True, null=True)
     CURRENCY = models.IntegerField(default=CURRENCY, max_length=4, blank=True, null=True)
