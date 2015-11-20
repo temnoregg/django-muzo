@@ -22,6 +22,6 @@ class CSignature:
         signature = unquote(signature)
         signature = b64decode(signature)
         try:
-            return self.pub_key.verify(data, signature)
+            return self.pub_key.verify(digest, signature)
         except:
             return False
